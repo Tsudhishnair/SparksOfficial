@@ -1,0 +1,226 @@
+.navbar-default
+{
+    background-color:rgb(240, 240, 240);
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav li a
+{
+    color: black;   
+    margin: 6px;
+}
+.navbar-default .navbar-nav li a:hover
+{
+    color: white;
+    background-color: #F26522;    
+    margin: 6px;
+    border-radius: 20px;
+}
+.hm
+{
+    position: relative;
+    top: 0px;
+}
+.donate
+{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+    background-size: contain;
+    border-radius: 10px;
+    font-weight:bolder;
+}
+.donate1
+{
+    background-color: orangered;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.desc
+{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.bt
+{
+border:2px solid white;
+}
+.bt:hover
+{
+color:black;
+background-color: white;
+font-weight: bold;
+}
+.gallcontent1
+{
+    color:rgb(58, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 34px;
+    margin-right: 10px;
+}
+.gallcontent2
+{
+    color:orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+}
+.contentgallery
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.body
+{
+    background-color: ghostwhite;
+}
+
+
+.galleryimages {
+    background-color: ghostwhite;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}   
+
+
+
+.fa 
+{
+    padding: 10px;
+    font-size: 14px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;  
+    z-index: 1; 
+    color:white;
+  }
+  
+
+a[href="#"]
+{
+    text-decoration: none;
+}
+.topbar
+{
+    background-color: #F26522;
+    opacity: 0.99;
+}
+.content {
+    padding: 0px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .content {
+    padding-top: 0px;
+  }
+  .glyphicon 
+  {
+      color:white;
+      
+  }
+  .text-white
+  {
+      color:white;
+  }
+  .donationgateway
+  {
+      background-image: url("img18.jpg");
+        padding: 15px;
+        z-index: 1;
+        opacity: 0.8;
+        font-weight: bold;
+       
+        height: 100%;
+    }
+    .donationbutton
+    {
+        background-color: orangered;
+    }
+ select{
+     padding: 3px;
+ }
+ .second
+ {
+     padding-top: 80px;
+ }
+ .third
+ {
+     background-image:url("img2.jpg");
+     padding: 100px;
+     background-attachment: fixed;
+     background-color: rgb(22, 21, 21);
+     background-blend-mode:soft-light;
+     background-size: cover;
+     line-height: 1cm;
+      }
+ body{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
